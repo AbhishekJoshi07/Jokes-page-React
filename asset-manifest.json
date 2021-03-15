@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Jokes-page-React/static/css/main.2441250d.chunk.css",
+    "main.js": "/Jokes-page-React/static/js/main.074de3a2.chunk.js",
+    "main.js.map": "/Jokes-page-React/static/js/main.074de3a2.chunk.js.map",
+    "runtime-main.js": "/Jokes-page-React/static/js/runtime-main.6203eeb4.js",
+    "runtime-main.js.map": "/Jokes-page-React/static/js/runtime-main.6203eeb4.js.map",
+    "static/js/2.440c2ec1.chunk.js": "/Jokes-page-React/static/js/2.440c2ec1.chunk.js",
+    "static/js/2.440c2ec1.chunk.js.map": "/Jokes-page-React/static/js/2.440c2ec1.chunk.js.map",
+    "static/js/3.89e84ea4.chunk.js": "/Jokes-page-React/static/js/3.89e84ea4.chunk.js",
+    "static/js/3.89e84ea4.chunk.js.map": "/Jokes-page-React/static/js/3.89e84ea4.chunk.js.map",
+    "index.html": "/Jokes-page-React/index.html",
+    "static/css/main.2441250d.chunk.css.map": "/Jokes-page-React/static/css/main.2441250d.chunk.css.map",
+    "static/js/2.440c2ec1.chunk.js.LICENSE.txt": "/Jokes-page-React/static/js/2.440c2ec1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6203eeb4.js",
+    "static/js/2.440c2ec1.chunk.js",
+    "static/css/main.2441250d.chunk.css",
+    "static/js/main.074de3a2.chunk.js"
+  ]
+}
