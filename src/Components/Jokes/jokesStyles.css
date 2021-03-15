@@ -1,0 +1,62 @@
+body {
+  background-color: #f8f8f8;
+}
+
+.jokes_page {
+  color: #665f5f;
+  font-size: 17px;
+  padding: 2% 5%;
+  max-width: 800px;
+  margin: auto;
+  font-family: cursive;
+}
+
+.page_heading {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #dbdbdb;
+}
+
+li {
+  padding: 16px 0;
+  border-bottom: 2px solid #dbdbdb;
+  animation-name: animateIn;
+  animation-duration: 350ms;
+}
+
+.load_more {
+  font-family: cursive;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: unset;
+  color: white;
+  background: #484848;
+}
+
+.load_more:hover {
+  background: #787878;
+}
+
+.load_more:active {
+  background: #787878;
+  transform: translateY(4px);
+}
+
+.load_more:disabled { 
+  cursor: not-allowed;
+}
+
+@keyframes animateIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6) translateY(-8px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
