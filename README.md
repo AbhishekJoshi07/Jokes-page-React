@@ -2,7 +2,7 @@
 
 [Live Demo](https://abhishekjoshi07.github.io/Jokes-page-React).
 
-This is a simple react single page application which renders multiple jokes.
+This is a simple react single page application that renders multiple jokes.
 
 ## Available Scripts
 
