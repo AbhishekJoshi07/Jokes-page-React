@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Footer from "../Footer/Footer";
-import "./jokesStyles.css";
+import Footer from "../footer/Footer";
+import "./jokesStyles.scss";
+
+const pageTitle= "Jokes for Days: Endless Entertainment";
+const errorMessage = "There is an Error!!! Please refresh the page.";
 
 export default function Jokes() {
   const [page, setPage] = useState(1);
@@ -51,10 +54,10 @@ export default function Jokes() {
 
   return (
     <div className="jokes_page">
-      <h2 className="page_heading">Jokes</h2>
+      <h2 className="page_heading">{pageTitle}</h2>
 
       {isError ? (
-        <p>There is an Error!!! Please refresh the page.</p>
+        <p>{errorMessage}</p>
       ) : (
         <>
           <ul>

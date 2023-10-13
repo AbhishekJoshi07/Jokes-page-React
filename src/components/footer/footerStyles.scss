@@ -1,0 +1,38 @@
+footer {
+    padding: 8px 0;
+    font-size: 13px;
+    z-index: 999;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+
+    a:link,
+    a:visited {
+        text-decoration: underline;
+        color: inherit;
+        transition: color 0.5s ease;
+    }
+
+    a:hover {
+        color: #fc0;
+    }
+
+    .love {
+        color: #b10;
+        font-size: 16px;
+        vertical-align: baseline;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    footer {
+        .love {
+            font-size: 12px;
+        }
+    }
+}

@@ -1,13 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Jokes from './Components/Jokes/Jokes';
+import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
+import Jokes from './components/jokes/Jokes';
+import './index.scss';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <Jokes />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
